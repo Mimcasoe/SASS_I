@@ -1,0 +1,16 @@
+header {
+    nav {
+        ul {
+            li {
+                a { font-family: $ffbase;
+                    text-decoration: none;
+                    text-align: right;
+                    &:hover {
+                        background: $miazul;
+                        transition-duration: 1ms;
+                    }
+                }
+            }
+        }
+    }
+  }

@@ -1,0 +1,145 @@
+@import "./base/variables";
+@import "./components/header";
+@import "./base/footer";
+* {
+    margin: 0;
+    padding: 0;
+  } 
+
+
+  a {
+    font-family: $ffbase;
+    text-decoration: none;
+    text-align: right;
+  }
+  
+  h3 {
+    color: $miazul;
+  }
+  
+  h1 {
+    font-family: $ffbase;
+    font-size: xx-large;
+  }
+  
+  p {
+    font-family: $ffbaseg;
+  }
+  
+
+
+
+  .cajacabeza {
+    display: flex;
+    width: 100wh;
+    height: 10vh;
+    margin: 2px;
+    padding: 5px;
+  }
+  .navmenu {
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    ul {
+        list-style: none;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 400;
+
+    }
+    li {
+        display: inline;
+    /*padding: 20px 60px;*/
+    font-size: 18px;
+    text-align: right;
+        
+    }
+    
+  }
+
+  .logo{
+    width: 90px;
+    height: 90px;
+    padding-left: 20px;
+  }
+
+  .cajamain{
+    display: flex;
+    width: 100wh;
+    height: 78vh;
+    margin: 2px;
+    padding: 5px;
+  }
+  
+  .imgiz {
+   
+    width: 32%;
+    height: 99%;
+    margin: 1px;
+  }
+  
+  .grid-container {
+    display: grid;
+    /*Filas*/
+    grid-template-rows: repeat(7 14%);
+    /*Columnas*/
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+    width: 64%;
+    height: 93%;
+    margin: 2px;
+    padding: 20px;
+  }
+
+  .contac {
+    display: grid;
+    /*Filas*/
+    grid-template-rows: repeat(7 14%);
+    /*Columnas*/
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid;
+    gap: 3px;
+    width: 64%;
+    height: 93%;
+    margin: 2px;
+    padding: 20px;
+  }
+  
+  .concen {    
+    width: 64%;
+    height: 93%;
+    margin: 2px;
+    padding: 20px;
+    word-break: break-all;
+  }
+  
+  .forcon{
+    color: $ws;
+    background-color: $miazul;
+    width: 400px;
+    height: 50px;
+    box-shadow: 7px 13px 37px $miazul;
+  }
+  .conaside {
+    background-color: $miazul;
+    width: 15%;
+    height: 97%;
+    margin: 1px;
+    padding: 10px;
+  }
+  
+  .asicol, a {
+    color: $migris;
+    font-size: xx-large;
+  }
+  
+  .conaside ul {
+    list-style: none;
+  }
+ 
+
+
+    
+  
+
+  

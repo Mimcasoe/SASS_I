@@ -1,0 +1,24 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+        text-align: center;
+        color: $migris;
+        font-size: x-large;
+
+    }
+    .cajafooter {
+        font-family: monospace;
+        font-size: large;
+        display: flex;
+        align-items: center;
+        width: 100wh;
+        height: 7vh;
+        margin: 2px;
+        padding: 5px;
+
+    }
+
+}
